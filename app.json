@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "UCEMA",
+    "slug": "ucema",
+    "version": "1.1.21",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.ucema.ucemaapp",
+      "buildNumber": "1.1.21",
+      "supportsTablet": false,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": ["whatsapp"]
+      }
+    },
+    "android": {
+      "package": "com.ucema.ucemaapp",
+      "versionCode": 21,
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyB_WUKUPqjgihiMNdsjoOFUND8b2N_k0FU"
+        }
+      },
+      "permissions": ["NOTIFICATIONS", "CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "App universidad UCEMA",
+    "githubUrl": "https://github.com/JDBONFOR/ucema-app-rn"
+  }
+}

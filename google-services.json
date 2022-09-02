@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "235459296674",
+    "firebase_url": "https://ucema-47f32.firebaseio.com",
+    "project_id": "ucema-47f32",
+    "storage_bucket": "ucema-47f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235459296674:android:86031a762f6198e63106fb",
+        "android_client_info": {
+          "package_name": "com.ucema.ucemaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235459296674-meuaf6resib8rmct2jqf31guheuro52s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_WUKUPqjgihiMNdsjoOFUND8b2N_k0FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235459296674-meuaf6resib8rmct2jqf31guheuro52s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
