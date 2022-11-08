@@ -25,9 +25,9 @@ const Item = ({ item }) => (
                 <Text style={[styles.courseTeacher, styles.textWhite]}>Modalidad: {item.modalidad}</Text>
 
             </View>
-            <View style={[styles.courseUbicationWrapper]} >
+           {/*  <View style={[styles.courseUbicationWrapper]} >
                 <Text style={[styles.textWhite, styles.textBold, styles.textUppercase, styles.canceledTitle]}>cancelada</Text>
-            </View>   
+            </View>  */}  
         </View>
         {/* { item.newHour != "" 
             ? <View style={ styles.newClassAler }><Text style={[styles.textUppercase, styles.textRed, styles.textBold]}>nueva clase: { item.newHour }</Text></View>

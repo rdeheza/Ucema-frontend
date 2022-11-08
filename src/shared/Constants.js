@@ -1,7 +1,7 @@
 import { API_URL } from '../../env.json'
 
 export const Constants = {
-    apibaseurl: `https://ucema.edu.ar/proapp1`,
+    apibaseurl: `https://ucema.edu.ar/proapp-test`,
     api: `/api`,
     getToken: `/getToken`,
     userdata: `/datosAlumno`,
